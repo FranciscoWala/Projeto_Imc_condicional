@@ -57,10 +57,11 @@ public class ImcCalculosEVerificacao {
     }
 
     public void exibirResultadosAoUsuario(){
+        String valorImcComDoisDecimais = String.format("%.2f",imc );
 
         System.out.println("-----RESULTADO-----");
         System.out.println("Aluno: " + nomeDoAluno);
-        System.out.println("IMC Calculado: " + imc);
+        System.out.println("IMC Calculado: " + valorImcComDoisDecimais);
 
     }
 }
