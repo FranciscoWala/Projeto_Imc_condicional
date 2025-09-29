@@ -66,6 +66,6 @@ public class ImcCalculosEVerificacao {
         System.out.println("IMC Calculado: " + valorImcComDoisDecimais);
         System.out.println("Status: " + classificação );
         System.out.println("-------------------");
-
     }
 }
+
